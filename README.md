@@ -17,18 +17,31 @@ ReactArt is a React-based web application that creates a community platform for 
 react-art-app/
 ├── src/                   # Source code
 │   ├── assets/            # Static assets like images
+│   │   └── logo.png       # Application logo
 │   ├── components/        # React components
 │   │   ├── Header.jsx     # Application header component
-│   │   ├── Header.css     # Styles for header
+│   │   ├── Header.css     # Styles for header component
 │   │   └── AuthInputs.jsx # Authentication form component
 │   ├── __tests__/         # Test files
+│   │   └── setup.js       # Test configuration setup
 │   ├── App.jsx            # Main application component
 │   ├── App.test.jsx       # Tests for App component
 │   ├── index.css          # Global styles
 │   └── main.jsx           # Application entry point
 ├── public/                # Public assets
-├── .github/workflows/     # GitHub Actions workflows
-└── doc/                   # Documentation
+│   └── vite.svg           # Vite logo
+├── .github/               # GitHub configuration
+│   └── workflows/         # GitHub Actions workflows
+│       └── deployment.yml # CI/CD pipeline for Docker image
+├── doc/                   # Documentation
+├── .gitignore             # Git ignore file
+├── .prettierrc            # Prettier configuration
+├── Dockerfile             # Docker configuration
+├── eslint.config.js       # ESLint configuration
+├── index.html             # HTML entry point
+├── package.json           # Project dependencies and scripts
+├── package-lock.json      # Dependency lock file
+└── vite.config.js         # Vite configuration
 ```
 
 ## Core Components

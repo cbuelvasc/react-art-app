@@ -36,9 +36,7 @@ export default function AuthInputs() {
           <input
             type="password"
             className={passwordNotValid ? 'invalid' : undefined}
-            onChange={(event) =>
-              handleInputChange('password', event.target.value)
-            }
+            onChange={(event) => handleInputChange('password', event.target.value)}
           />
         </p>
       </div>
